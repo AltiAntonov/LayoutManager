@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode7
 before_install: gem install cocoapods xcpretty obcd slather -N
-xcode_sdk: iphonesimulator9.3
+xcode_sdk: iphonesimulator9.0
 xcode_project: LayoutManager.xcodeproj
 xcode_scheme: LayoutManagerUnitTests
 after_success: slather

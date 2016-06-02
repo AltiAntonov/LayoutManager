@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E670AE1D00275C001AD57C"
-               BuildableName = "LayoutManager.app"
-               BlueprintName = "LayoutManager"
+               BlueprintIdentifier = "40E670C21D00275C001AD57C"
+               BuildableName = "LayoutManagerTests.xctest"
+               BlueprintName = "LayoutManagerTests"
                ReferencedContainer = "container:LayoutManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40E670C21D00275C001AD57C"
-               BuildableName = "LayoutManagerTests.xctest"
-               BlueprintName = "LayoutManagerTests"
-               ReferencedContainer = "container:LayoutManager.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E670AE1D00275C001AD57C"
-            BuildableName = "LayoutManager.app"
-            BlueprintName = "LayoutManager"
+            BlueprintIdentifier = "40E670C21D00275C001AD57C"
+            BuildableName = "LayoutManagerTests.xctest"
+            BlueprintName = "LayoutManagerTests"
             ReferencedContainer = "container:LayoutManager.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,16 +51,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E670AE1D00275C001AD57C"
-            BuildableName = "LayoutManager.app"
-            BlueprintName = "LayoutManager"
+            BlueprintIdentifier = "40E670C21D00275C001AD57C"
+            BuildableName = "LayoutManagerTests.xctest"
+            BlueprintName = "LayoutManagerTests"
             ReferencedContainer = "container:LayoutManager.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +69,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40E670AE1D00275C001AD57C"
-            BuildableName = "LayoutManager.app"
-            BlueprintName = "LayoutManager"
-            ReferencedContainer = "container:LayoutManager.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
