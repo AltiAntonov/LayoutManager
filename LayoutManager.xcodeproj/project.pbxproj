@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		40E670B31D00275C001AD57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670B21D00275C001AD57C /* AppDelegate.swift */; };
 		40E670B51D00275C001AD57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670B41D00275C001AD57C /* ViewController.swift */; };
-		40E670B81D00275C001AD57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E670B61D00275C001AD57C /* Main.storyboard */; };
 		40E670BA1D00275C001AD57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E670B91D00275C001AD57C /* Assets.xcassets */; };
 		40E670BD1D00275C001AD57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E670BB1D00275C001AD57C /* LaunchScreen.storyboard */; };
 		40E670C81D00275C001AD57C /* LayoutManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670C71D00275C001AD57C /* LayoutManagerTests.swift */; };
+		40E670D51D002817001AD57C /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670D41D002817001AD57C /* LayoutManager.swift */; };
+		40E670D81D0028E2001AD57C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670D71D0028E2001AD57C /* Types.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		40E670AF1D00275C001AD57C /* LayoutManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E670B21D00275C001AD57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E670B41D00275C001AD57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40E670B71D00275C001AD57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E670B91D00275C001AD57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E670BC1D00275C001AD57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E670BE1D00275C001AD57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E670C31D00275C001AD57C /* LayoutManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E670C71D00275C001AD57C /* LayoutManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutManagerTests.swift; sourceTree = "<group>"; };
 		40E670C91D00275C001AD57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E670D41D002817001AD57C /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutManager.swift; path = Source/LayoutManager.swift; sourceTree = "<group>"; };
+		40E670D71D0028E2001AD57C /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Source/Types.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 		40E670A61D00275C001AD57C = {
 			isa = PBXGroup;
 			children = (
-				40E670B11D00275C001AD57C /* LayoutManager */,
+				40E670D31D002802001AD57C /* Source */,
+				40E670B11D00275C001AD57C /* Demo */,
 				40E670C61D00275C001AD57C /* LayoutManagerTests */,
 				40E670B01D00275C001AD57C /* Products */,
 			);
@@ -74,17 +77,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40E670B11D00275C001AD57C /* LayoutManager */ = {
+		40E670B11D00275C001AD57C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				40E670B21D00275C001AD57C /* AppDelegate.swift */,
 				40E670B41D00275C001AD57C /* ViewController.swift */,
-				40E670B61D00275C001AD57C /* Main.storyboard */,
-				40E670B91D00275C001AD57C /* Assets.xcassets */,
-				40E670BB1D00275C001AD57C /* LaunchScreen.storyboard */,
-				40E670BE1D00275C001AD57C /* Info.plist */,
+				40E670D21D0027AF001AD57C /* Supporting Files */,
 			);
-			path = LayoutManager;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		40E670C61D00275C001AD57C /* LayoutManagerTests */ = {
@@ -94,6 +94,25 @@
 				40E670C91D00275C001AD57C /* Info.plist */,
 			);
 			path = LayoutManagerTests;
+			sourceTree = "<group>";
+		};
+		40E670D21D0027AF001AD57C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40E670B91D00275C001AD57C /* Assets.xcassets */,
+				40E670BB1D00275C001AD57C /* LaunchScreen.storyboard */,
+				40E670BE1D00275C001AD57C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40E670D31D002802001AD57C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				40E670D41D002817001AD57C /* LayoutManager.swift */,
+				40E670D71D0028E2001AD57C /* Types.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +198,6 @@
 			files = (
 				40E670BD1D00275C001AD57C /* LaunchScreen.storyboard in Resources */,
 				40E670BA1D00275C001AD57C /* Assets.xcassets in Resources */,
-				40E670B81D00275C001AD57C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +217,8 @@
 			files = (
 				40E670B51D00275C001AD57C /* ViewController.swift in Sources */,
 				40E670B31D00275C001AD57C /* AppDelegate.swift in Sources */,
+				40E670D51D002817001AD57C /* LayoutManager.swift in Sources */,
+				40E670D81D0028E2001AD57C /* Types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +241,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40E670B61D00275C001AD57C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40E670B71D00275C001AD57C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40E670BB1D00275C001AD57C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LayoutManager/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altimir.LayoutManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -340,7 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LayoutManager/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.altimir.LayoutManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +402,7 @@
 				40E670CE1D00275C001AD57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40E670CF1D00275C001AD57C /* Build configuration list for PBXNativeTarget "LayoutManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +411,7 @@
 				40E670D11D00275C001AD57C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
