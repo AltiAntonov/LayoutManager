@@ -14,7 +14,7 @@
     typealias View = NSView
 #endif
 
-extension View {
+extension View: Frameable {
     public var superFrame: CGRect {
         guard let superview = superview else {
             return CGRectZero

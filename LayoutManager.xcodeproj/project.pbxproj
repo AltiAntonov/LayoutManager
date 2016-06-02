@@ -14,6 +14,7 @@
 		40E670C81D00275C001AD57C /* LayoutManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670C71D00275C001AD57C /* LayoutManagerTests.swift */; };
 		40E670D51D002817001AD57C /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670D41D002817001AD57C /* LayoutManager.swift */; };
 		40E670D81D0028E2001AD57C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670D71D0028E2001AD57C /* Types.swift */; };
+		40E670DC1D004AD1001AD57C /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670DB1D004AD1001AD57C /* Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		40E670C91D00275C001AD57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40E670D41D002817001AD57C /* LayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutManager.swift; path = Source/LayoutManager.swift; sourceTree = "<group>"; };
 		40E670D71D0028E2001AD57C /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Types.swift; path = Source/Types.swift; sourceTree = "<group>"; };
+		40E670DB1D004AD1001AD57C /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Frame.swift; path = Source/Frame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				40E670D41D002817001AD57C /* LayoutManager.swift */,
 				40E670D71D0028E2001AD57C /* Types.swift */,
+				40E670DB1D004AD1001AD57C /* Frame.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				40E670B31D00275C001AD57C /* AppDelegate.swift in Sources */,
 				40E670D51D002817001AD57C /* LayoutManager.swift in Sources */,
 				40E670D81D0028E2001AD57C /* Types.swift in Sources */,
+				40E670DC1D004AD1001AD57C /* Frame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
