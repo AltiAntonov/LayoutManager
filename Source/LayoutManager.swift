@@ -14,7 +14,7 @@
     typealias View = NSView
 #endif
 
-extension View: Frameable {
+extension View: Frameable, Anchorable, Alignable, Groupable {
     public var superFrame: CGRect {
         guard let superview = superview else {
             return CGRectZero
@@ -33,7 +33,7 @@ extension View: Frameable {
     }
 }
 
-extension CALayer {
+extension CALayer: Frameable, Anchorable, Alignable, Groupable {
     public var superFrame: CGRect {
         guard let superlayer = superlayer else {
             return CGRectZero
