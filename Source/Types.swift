@@ -24,3 +24,18 @@ public enum Group {
     case Horizontal
     case Vertical
 }
+
+public enum Align {
+    case ToTheRightMatchingTop
+    case ToTheRightMatchingBottom
+    case ToTheRightCentered
+    case ToTheLeftMatchingTop
+    case ToTheLeftMatchingBottom
+    case ToTheLeftCentered
+    case UnderMatchingLeft
+    case UnderMatchingRight
+    case UnderCentered
+    case AboveMatchingLeft
+    case AboveMatchingRight
+    case AboveCentered
+}
