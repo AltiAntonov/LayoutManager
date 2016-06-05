@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40C30F7C1D044CAE0092157F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30F7B1D044CAE0092157F /* Align.swift */; };
+		40C30F7E1D044DBA0092157F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30F7D1D044DBA0092157F /* Group.swift */; };
 		40E670B31D00275C001AD57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670B21D00275C001AD57C /* AppDelegate.swift */; };
 		40E670B51D00275C001AD57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E670B41D00275C001AD57C /* ViewController.swift */; };
 		40E670BA1D00275C001AD57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E670B91D00275C001AD57C /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		40C30F7B1D044CAE0092157F /* Align.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Source/Align.swift; sourceTree = "<group>"; };
+		40C30F7D1D044DBA0092157F /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Group.swift; path = Source/Group.swift; sourceTree = "<group>"; };
 		40E670AF1D00275C001AD57C /* LayoutManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E670B21D00275C001AD57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E670B41D00275C001AD57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				40E670DB1D004AD1001AD57C /* Frame.swift */,
 				40F6C20A1D005006006E7582 /* Anchor.swift */,
 				40C30F7B1D044CAE0092157F /* Align.swift */,
+				40C30F7D1D044DBA0092157F /* Group.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				40E670B51D00275C001AD57C /* ViewController.swift in Sources */,
 				40C30F7C1D044CAE0092157F /* Align.swift in Sources */,
 				40E670B31D00275C001AD57C /* AppDelegate.swift in Sources */,
+				40C30F7E1D044DBA0092157F /* Group.swift in Sources */,
 				40E670D51D002817001AD57C /* LayoutManager.swift in Sources */,
 				40E670D81D0028E2001AD57C /* Types.swift in Sources */,
 				40F6C20B1D005006006E7582 /* Anchor.swift in Sources */,
